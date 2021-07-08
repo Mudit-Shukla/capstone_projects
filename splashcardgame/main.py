@@ -3,8 +3,10 @@ import pandas
 import random
 
 BACKGROUND_COLOR = "#B1DDC6"
-
-data = pandas.read_csv("data/french_words.csv").to_dict(orient = "records")
+try:
+    data = pandas.read_csv("data/word_to_learn.csv").to_dict(orient = "records")
+except FileNotFoundError:
+    data = pandas.read_csv("data/french_words.csv").to_dict(orient="records")
 current_dict = {}
 
 def choose_word():
@@ -22,8 +24,12 @@ def filp_card():
     canvas.itemconfig(french_title, text = "English")
     canvas.itemconfig(french_text, text = current_dict["English"])
     canvas.itemconfig(image_background, image = image2)
-    current_dict.clear()
 
+def is_known():
+    data.remove(current_dict)
+    new_data = pandas.DataFrame(data)
+    new_data.to_csv("data/word_to_learn.csv")
+    choose_word()
 
 window = Tk()
 window.title("Flashy")
@@ -42,7 +48,7 @@ canvas.grid(row = 0,column = 0, columnspan = 2)
 
 
 right_button_image = PhotoImage(file = "images/right.png", )
-right_button = Button(image = right_button_image, highlightthickness = 0, bg = BACKGROUND_COLOR,command = choose_word)
+right_button = Button(image = right_button_image, highlightthickness = 0, bg = BACKGROUND_COLOR,command = is_known)
 right_button.grid(row = 1,column = 0)
 wrong_button_image = PhotoImage(file = "images/wrong.png")
 wrong_button = Button(image = wrong_button_image, highlightthickness = 0, bg = BACKGROUND_COLOR, command = choose_word)
