@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b3590e-af59-46b6-8b8d-148912f0046d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/images/false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/images/true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/quiz_brain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/quizzler_application/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/rain_alert_application/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/stock_news_alert/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/quizzler_application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/quizzler_application/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +38,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python programs\Udemy 100 days\Capstone projects\projects" />
       <recent name="D:\python programs\Udemy 100 days\Capstone projects\projects\quizzler_application" />
       <recent name="D:\python programs\Udemy 100 days\Capstone projects\projects\satellite_is_up" />
       <recent name="D:\python programs\Udemy 100 days\Capstone projects\practice_modules\starting_with_api" />
       <recent name="D:\python programs\Udemy 100 days\Capstone projects\practice_modules" />
-      <recent name="D:\python programs\Udemy 100 days\Capstone projects\projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (5)">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Capstone projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,32 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_automation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects/stock_news_alert" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_automation/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Capstone projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/birthday_wisher" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/birthday_wisher/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/stock_news_alert/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,13 +130,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Capstone projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice_modules/api_key_practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_modules/api_key_practice/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626006416331</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed gui based quizzler application.">
+      <created>1626037820504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626037820504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,14 +222,19 @@
     <MESSAGE value="1 step to automate birthday wishing emails" />
     <MESSAGE value="completed automated birthday wishing mail project" />
     <MESSAGE value="completed if satellite is above a particular place project. Whenever the satellite is above us the program will mail us telling that the satellite is above" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed if satellite is above a particular place project. Whenever the satellite is above us the program will mail us telling that the satellite is above" />
+    <MESSAGE value="completed gui based quizzler application." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed gui based quizzler application." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="0" key="CommitChangelistDialog2" timestamp="1626006413908">
+    <state x="513" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626113275300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1626006413908" />
+    <state x="513" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1626113275300" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1626037819767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1626037819767" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625773410227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,25 +247,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="532" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1625746955993" />
-    <state width="1515" height="189" key="GridCell.Tab.0.bottom" timestamp="1626037690826">
+    <state width="1515" height="335" key="GridCell.Tab.0.bottom" timestamp="1626122610925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626037690826" />
-    <state width="1515" height="189" key="GridCell.Tab.0.center" timestamp="1626037690826">
+    <state width="1515" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626122610925" />
+    <state width="1515" height="335" key="GridCell.Tab.0.center" timestamp="1626122610925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626037690826" />
-    <state width="1515" height="189" key="GridCell.Tab.0.left" timestamp="1626037690826">
+    <state width="1515" height="335" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626122610925" />
+    <state width="1515" height="335" key="GridCell.Tab.0.left" timestamp="1626122610925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626037690826" />
-    <state width="1515" height="189" key="GridCell.Tab.0.right" timestamp="1626037690826">
+    <state width="1515" height="335" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626122610925" />
+    <state width="1515" height="335" key="GridCell.Tab.0.right" timestamp="1626122610925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626037690826" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1626006419761">
+    <state width="1515" height="335" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626122610925" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1626037831029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626006419761" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626037831029" />
   </component>
 </project>

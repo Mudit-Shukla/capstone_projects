@@ -1,5 +1,4 @@
 from projects.quizzler_application.question_model import Question
-from projects.quizzler_application.data import question_data
 from projects.quizzler_application.quiz_brain import QuizBrain
 from projects.quizzler_application.ui import QuizzlerInterface
 import requests
