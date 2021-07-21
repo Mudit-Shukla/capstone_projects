@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b3590e-af59-46b6-8b8d-148912f0046d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/cookie_challenge_game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/internet_speed_test/InternetSpeedTwitterBot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
       <recent name="D:\python programs\Udemy 100 days\Capstone projects\practice_modules\starting_with_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.InternetSpeedTwitterBot">
+    <configuration name="InternetSpeedTwitterBot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Capstone projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +52,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects/flight_deals_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects/internet_speed_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/flight_deals_project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/internet_speed_test/InternetSpeedTwitterBot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.InternetSpeedTwitterBot" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.signuppractice" />
         <item itemvalue="Python.wiki" />
         <item itemvalue="Python.main (5)" />
-        <item itemvalue="Python.main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626807783530</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="completed automating cookie clicking game using selenium module.">
+      <created>1626810222186</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626810222186</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,7 +268,8 @@
     <MESSAGE value="COMPLETED WORKOUT METER PROJECT" />
     <MESSAGE value="APIS NOT WORKING FOR THE FLIGHT DETAILS PROJECT." />
     <MESSAGE value="completed selenium practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed selenium practice" />
+    <MESSAGE value="completed automating cookie clicking game using selenium module." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed automating cookie clicking game using selenium module." />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -269,11 +277,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="513" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1626113275300" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1626807781347">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1626810219932">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1626206388247" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1626807781347" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1626810219932" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625773410227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,26 +294,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="532" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1625746955993" />
-    <state width="1515" height="257" key="GridCell.Tab.0.bottom" timestamp="1626809232552">
+    <state width="1515" height="257" key="GridCell.Tab.0.bottom" timestamp="1626896297141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626294764177" />
-    <state width="1515" height="257" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1626809232552" />
-    <state width="1515" height="257" key="GridCell.Tab.0.center" timestamp="1626809232552">
+    <state width="1515" height="257" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1626896297141" />
+    <state width="1515" height="257" key="GridCell.Tab.0.center" timestamp="1626896297141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626294764177" />
-    <state width="1515" height="257" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1626809232552" />
-    <state width="1515" height="257" key="GridCell.Tab.0.left" timestamp="1626809232552">
+    <state width="1515" height="257" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1626896297141" />
+    <state width="1515" height="257" key="GridCell.Tab.0.left" timestamp="1626896297141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626294764177" />
-    <state width="1515" height="257" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1626809232552" />
-    <state width="1515" height="257" key="GridCell.Tab.0.right" timestamp="1626809232552">
+    <state width="1515" height="257" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1626896297141" />
+    <state width="1515" height="257" key="GridCell.Tab.0.right" timestamp="1626896297141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626294764177" />
-    <state width="1515" height="257" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1626809232552" />
+    <state width="1515" height="257" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1626896297141" />
     <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1626807789427">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
